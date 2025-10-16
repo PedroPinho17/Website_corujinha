@@ -22,19 +22,22 @@ export default function About() {
                 <p className="text-gray-600 mb-6">Fundadora da Corujinha</p>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Vera Branquinho, nascida a 10 de outubro de 1980, sempre teve um sonho:
-                  fazer a diferença na vida das pessoas, especialmente das crianças.
+                  fazer a diferença na vida das pessoas, especialmente das crianças e jovens.
+                  Desde cedo ligada à área da educação e formação, acreditou sempre que aprender vai muito além dos livros: 
+                  é uma forma de transformar vidas, abrir oportunidades e construir futuros com prepósito.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  Com experiência profissional na Minisom, Vera decidiu dar vida ao seu projeto
-                  mais pessoal - criar um espaço onde cada criança pudesse desenvolver o seu
-                  potencial através da educação e do carinho.
+                  Ao longo do seu percurso profissional, passou pela Minisom, onde desenvolveu competências de comunicação, empatia e proximidade com as pessoas.
+                  Mais foi no seu caminho mais humano e comunitário que encontrou a sua verdadeira vocação: criar impacto através da educação. Com coragem e determinação,
+                  decidiu dar vida ao seu projeto mais pessoal - criar um espaço onde cada criança se sentisse acolhida, valorizada e capaz de evoluir ao seu ritmo,
+                  num ambiente de respeito, afeto e inspiração.
                 </p>
               </div>
               <div className="order-1 md:order-2">
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-pink-400 to-orange-400 rounded-2xl transform rotate-3"></div>
                   <img
-                    src="/Vera.png"
+                    src="/Vera.jpg"
                     alt="Vera Branquinho - Fundadora da Corujinha"
                     className="relative rounded-2xl shadow-2xl w-full h-auto object-cover"
                   />
@@ -44,10 +47,9 @@ export default function About() {
             <div className="bg-white rounded-2xl p-6 mt-6">
               <h4 className="text-xl font-bold text-gray-900 mb-3">A Nossa Missão</h4>
               <p className="text-gray-700 leading-relaxed">
-                Hoje, somos uma equipa comprometida que opera em duas localizações
-                (Lobão/Caldas e São João de Ver), oferecendo não apenas explicações,
-                mas também transporte escolar, atividades de férias e formações profissionais.
-                Cada criança que passa pela Corujinha recebe atenção personalizada e dedicada.
+              Com o crescimento da Corujinha, também cresceu a equipa: professores, formadores e colaboradores qualificados juntaram-se ao projeto, 
+              partilhando a mesma visão de educação humana e transformadora. Hoje, o Corujinha é muito mais do que um espaço físico — é uma família educativa, 
+              um ponto de encontro onde se aprende, cria, cresce e vive o verdadeiro espírito de comunidade.
               </p>
             </div>
           </div>

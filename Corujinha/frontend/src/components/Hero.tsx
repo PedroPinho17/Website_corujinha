@@ -17,7 +17,7 @@ export default function Hero() {
               Educação com <span className="text-pink-600">Carinho</span> e <span className="text-orange-600">Dedicação</span>
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Centro de explicações e apoio educativo para crianças até ao 9º ano.
+              Centro de explicações e apoio educativo para crianças até ao 12º ano e preparação para o exames.
               Na Corujinha, cada criança recebe atenção personalizada para alcançar o seu melhor potencial.
             </p>
             <div className="flex gap-4 flex-wrap">
