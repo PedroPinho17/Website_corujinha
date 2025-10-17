@@ -38,7 +38,7 @@ export default function Hero() {
 
           <div className="relative">
             <div className="bg-gradient-to-br from-pink-400 to-orange-400 rounded-3xl p-8 shadow-2xl transform hover:rotate-1 transition-transform">
-              <img src="/logo.png" alt="Corujinha" className="w-full h-auto" />
+              <img src="/logo1.webp" alt="Corujinha" className="w-full h-auto" />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-4 transform hover:scale-105 transition-transform">
               <div className="flex items-center gap-3">
