@@ -143,7 +143,7 @@ export default function About() {
                 <MapPin className="text-white" size={24} />
               </div>
               <h4 className="font-bold text-gray-900 mb-2">2 Centros</h4>
-              <p className="text-sm text-gray-600">Lobão/Caldas e São João de Ver</p>
+              <p className="text-sm text-gray-600">Lobão e São João de Ver</p>
             </div>
           </div>
 

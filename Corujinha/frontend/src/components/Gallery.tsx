@@ -6,20 +6,20 @@ const galleryImages = [
   {
     src: '/gallery/caldas/classroom-1.png',
     alt: 'Sala de aula - Centro Caldas',
-    category: 'caldas',
-    title: 'Sala de Aula (Caldas)'
+    category: 'lobao',
+    title: 'Sala de Aula (Lobão)'
   },
   {
     src: '/gallery/caldas/classroom-2.jpg',
-    alt: 'Sala de aula 2 - Centro Caldas',
-    category: 'caldas',
-    title: 'Sala de Aula 2 (Caldas)'
+    alt: 'Sala de aula 2 - Centro Lobão',
+    category: 'lobao',
+    title: 'Sala de Aula 2 (Lobão)'
   },
   {
     src: '/gallery/caldas/tutoring-session.jpeg',
-    alt: 'Aula no Centro Caldas',
-    category: 'caldas',
-    title: 'Aula em Caldas'
+    alt: 'Aula no Centro Lobão',
+    category: 'lobao',
+    title: 'Aula em Lobão'
   },
   // São João de Ver
   {
@@ -69,7 +69,7 @@ const galleryImages = [
 
 export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
-  const [filter, setFilter] = useState<'all' | 'caldas' | 'sao-joao' | 'activities'>('all');
+  const [filter, setFilter] = useState<'all' | 'lobao' | 'sao-joao' | 'activities'>('all');
 
   const filteredImages = filter === 'all'
     ? galleryImages
@@ -118,14 +118,14 @@ export default function Gallery() {
               Todas
             </button>
             <button
-              onClick={() => setFilter('caldas')}
+              onClick={() => setFilter('lobao')}
               className={`px-6 py-3 rounded-xl font-semibold transition-all ${
-                filter === 'caldas'
+                filter === 'lobao'
                   ? 'bg-pink-600 text-white shadow-lg'
                   : 'bg-white text-gray-700 hover:shadow-md'
               }`}
             >
-              Centro Caldas
+              Centro Lobão
             </button>
             <button
               onClick={() => setFilter('sao-joao')}

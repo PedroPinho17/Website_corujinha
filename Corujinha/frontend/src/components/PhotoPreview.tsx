@@ -4,18 +4,18 @@ import { Link } from 'react-router-dom';
 const previewImages = [
   {
     src: '/gallery/caldas/classroom-1.png',
-    alt: 'Sala de aula - Caldas',
-    label: 'Centro Caldas'
+    alt: 'Sala de aula - Lobão',
+    label: 'Centro Lobão'
   },
   {
     src: '/gallery/caldas/classroom-2.jpg',
-    alt: 'Sala de aula 2 - Caldas',
-    label: 'Centro Caldas'
+    alt: 'Sala de aula 2 - Lobão',
+    label: 'Centro Lobão'
   },
   {
     src: '/gallery/caldas/tutoring-session.jpeg',
-    alt: 'Aula em Caldas',
-    label: 'Centro Caldas'
+    alt: 'Aula em Lobão',
+    label: 'Centro Lobão'
   },
   {
     src: '/gallery/sao-joao/placeholder-1.jpg',
@@ -53,7 +53,7 @@ export default function PhotoPreview() {
             Nossa <span className="text-pink-600">Galeria</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Veja momentos especiais das nossas aulas e atividades em Caldas e São João de Ver
+            Veja momentos especiais das nossas aulas e atividades em Lobão e São João de Ver
           </p>
         </div>
 
