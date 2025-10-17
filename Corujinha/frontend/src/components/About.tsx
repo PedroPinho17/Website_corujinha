@@ -30,7 +30,7 @@ export default function About() {
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-pink-400 to-orange-400 rounded-2xl transform rotate-3"></div>
                   <img
-                    src="/Vera.jpg"
+                    src="/Vera.webp"
                     alt="Vera Branquinho - Fundadora da Corujinha"
                     className="relative rounded-2xl shadow-2xl w-full h-auto object-cover"
                   />
