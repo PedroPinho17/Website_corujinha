@@ -61,7 +61,7 @@ export default function Hero() {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">Explicações</h3>
             <p className="text-gray-600">
-              Apoio escolar personalizado para todas as disciplinas até ao 9º ano
+              Apoio escolar personalizado para todas as disciplinas até ao 12º ano e preparação para o exames
             </p>
           </div>
 
@@ -81,7 +81,7 @@ export default function Hero() {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">Formações Profissionais</h3>
             <p className="text-gray-600">
-              Cursos certificados em termalismo e cuidados de saúde
+              Diferentes Cursos certificados 
             </p>
           </div>
         </div>

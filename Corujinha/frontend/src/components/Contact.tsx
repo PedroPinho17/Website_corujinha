@@ -83,7 +83,7 @@ export default function Contact() {
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <CheckCircle className="text-pink-600" size={20} />
-                  <span className="text-gray-700">Centro de Lobão/Caldas</span>
+                  <span className="text-gray-700">Centro de Lobão</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="text-pink-600" size={20} />
@@ -182,7 +182,7 @@ export default function Contact() {
         <div className="mt-16 max-w-6xl mx-auto">
           <div className="text-center mb-8">
             <h3 className="text-3xl font-bold text-gray-900 mb-2">Onde Estamos</h3>
-            <p className="text-gray-600">Encontre-nos em Lobão/Caldas e São João de Ver</p>
+            <p className="text-gray-600">Encontre-nos em Lobão e São João de Ver</p>
           </div>
 
           <div className="bg-gradient-to-br from-pink-50 to-orange-50 rounded-3xl p-6 shadow-xl">
@@ -195,7 +195,7 @@ export default function Contact() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Localização Corujinha - Lobão/Caldas e São João de Ver"
+                title="Localização Corujinha - Lobão e São João de Ver"
               />
             </div>
             <div className="grid md:grid-cols-2 gap-6 mt-6">
@@ -205,7 +205,7 @@ export default function Contact() {
                     <MapPin className="text-white" size={24} />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 mb-2">Centro Lobão/Caldas</h4>
+                    <h4 className="font-bold text-gray-900 mb-2">Centro Lobão</h4>
                     <p className="text-gray-700 text-sm">R. Namorados 566</p>
                     <p className="text-gray-700 text-sm">4505-444 Lobão</p>
                     <a

@@ -53,7 +53,7 @@ export default function History() {
                         <h3 className="text-2xl font-bold text-gray-900 mb-2">Primeiro Centro</h3>
                         <p className="text-gray-600 leading-relaxed">
                           O sonho tornou-se realidade com a abertura do primeiro centro
-                          da Corujinha em Lobão/Caldas. Um espaço acolhedor onde as
+                          da Corujinha em Lobão. Um espaço acolhedor onde as
                           crianças encontram apoio educativo de qualidade e um ambiente
                           familiar.
                         </p>
