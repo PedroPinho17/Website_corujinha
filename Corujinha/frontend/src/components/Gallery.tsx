@@ -4,26 +4,26 @@ import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 const galleryImages = [
   // Caldas
   {
-    src: '/gallery/caldas/classroom-1.png',
+    src: '/gallery/caldas/classroom-1.webp',
     alt: 'Sala de aula - Centro Caldas',
     category: 'lobao',
     title: 'Sala de Aula (Lobão)'
   },
   {
-    src: '/gallery/caldas/classroom-2.jpg',
+    src: '/gallery/caldas/classroom-2.webp',
     alt: 'Sala de aula 2 - Centro Lobão',
     category: 'lobao',
     title: 'Sala de Aula 2 (Lobão)'
   },
   {
-    src: '/gallery/caldas/tutoring-session.jpeg',
+    src: '/gallery/caldas/tutoring-session.webp',
     alt: 'Aula no Centro Lobão',
     category: 'lobao',
     title: 'Aula em Lobão'
   },
   // São João de Ver
   {
-    src: '/gallery/sao-joao/placeholder-1.jpg',
+    src: '/gallery/sao-joao/placeholder-1.webp',
     alt: 'Centro São João de Ver - 1',
     category: 'sao-joao',
     title: 'São João de Ver 1'

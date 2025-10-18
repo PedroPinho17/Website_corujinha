@@ -47,6 +47,9 @@ export default function Header() {
             <Link to="/galeria" className="text-gray-700 hover:text-pink-600 transition-colors font-medium">
               Galeria
             </Link>
+            <button onClick={() => scrollToSection('partner')} className="text-gray-700 hover:text-pink-600 transition-colors font-medium">
+              Parceria
+            </button>
             <button onClick={() => scrollToSection('contact')} className="bg-pink-600 text-white px-6 py-2 rounded-full hover:bg-pink-700 transition-colors font-medium">
               Contacto
             </button>
@@ -55,13 +58,16 @@ export default function Header() {
           <button
             className="md:hidden text-gray-700"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
+            aria-expanded={isMenuOpen}
+            aria-controls="mobile-menu"
           >
             {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
 
         {isMenuOpen && (
-          <nav className="md:hidden mt-4 pb-4 flex flex-col gap-4">
+          <nav id="mobile-menu" className="md:hidden mt-4 pb-4 flex flex-col gap-4">
             <button onClick={() => scrollToSection('home')} className="text-gray-700 hover:text-pink-600 transition-colors font-medium text-left">
               Início
             </button>
@@ -80,6 +86,9 @@ export default function Header() {
             <Link to="/galeria" className="text-gray-700 hover:text-pink-600 transition-colors font-medium text-left" onClick={() => setIsMenuOpen(false)}>
               Galeria
             </Link>
+            <button onClick={() => scrollToSection('partner')} className="text-gray-700 hover:text-pink-600 transition-colors font-medium text-left">
+              Parceria
+            </button>
             <button onClick={() => scrollToSection('contact')} className="bg-pink-600 text-white px-6 py-2 rounded-full hover:bg-pink-700 transition-colors font-medium text-center">
               Contacto
             </button>
