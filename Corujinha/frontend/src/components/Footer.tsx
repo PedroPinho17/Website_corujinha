@@ -58,7 +58,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-4">Serviços</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Explicações até ao 9º ano</li>
+              <li>Explicações até ao 12º ano e preparação para o exames</li>
               <li>Atividades de Férias</li>
               <li>Transporte Escolar</li>
               <li>Formações Profissionais</li>

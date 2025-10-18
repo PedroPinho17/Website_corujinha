@@ -182,7 +182,7 @@ export default function Contact() {
         <div className="mt-16 max-w-6xl mx-auto">
           <div className="text-center mb-8">
             <h3 className="text-3xl font-bold text-gray-900 mb-2">Onde Estamos</h3>
-            <p className="text-gray-600">Encontre-nos em Lobão e São João de Ver</p>
+            <p className="text-gray-600">Encontre-nos em Lobão</p>
           </div>
 
           <div className="bg-gradient-to-br from-pink-50 to-orange-50 rounded-3xl p-6 shadow-xl">
@@ -195,7 +195,7 @@ export default function Contact() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Localização Corujinha - Lobão e São João de Ver"
+                title="Localização Corujinha - Lobão "
               />
             </div>
             <div className="grid md:grid-cols-2 gap-6 mt-6">

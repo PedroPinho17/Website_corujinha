@@ -3,45 +3,20 @@ import { Link } from 'react-router-dom';
 
 const previewImages = [
   {
-    src: '/gallery/caldas/classroom-1.png',
-    alt: 'Sala de aula - Lobão',
-    label: 'Centro Lobão'
-  },
-  {
-    src: '/gallery/caldas/classroom-2.jpg',
+    src: '/gallery/homepage/classroom-2.webp',
     alt: 'Sala de aula 2 - Lobão',
     label: 'Centro Lobão'
   },
   {
-    src: '/gallery/caldas/tutoring-session.jpeg',
-    alt: 'Aula em Lobão',
-    label: 'Centro Lobão'
-  },
-  {
-    src: '/gallery/sao-joao/placeholder-1.jpg',
+    src: '/gallery/homepage/placeholder-1.webp',
     alt: 'Centro São João de Ver',
     label: 'São João de Ver'
   },
-  // {
-  //   src: '/gallery/sao-joao/placeholder-2.jpg',
-  //   alt: 'Atividades em São João de Ver',
-  //   label: 'São João de Ver'
-  // },
   {
-    src: '/gallery/activities/carnival.jpeg',
-    alt: 'Carnaval Corujinha',
-    label: 'Atividades'
-  },
-  {
-    src: '/gallery/activities/classroom-lesson.png',
+    src: '/gallery/homepage/classroom-lesson.webp',
     alt: 'Driving school',
     label: 'Atividades'
    },
-  // {
-  //   src: '/gallery/activities/dance-kids.png',
-  //   alt: 'Dance Kids',
-  //   label: 'Atividades'
-  // }
 ];
 
 export default function PhotoPreview() {
