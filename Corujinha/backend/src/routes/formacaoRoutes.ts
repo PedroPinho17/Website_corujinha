@@ -1,31 +1,24 @@
-import { Router } from "express";
-import { pool } from "../index";
+import express from 'express';
+import {listarFormacoes, criarFormacao, listarFormacoesAtivas, alterarFormacao, alterarStatusFormacao, listarFormacoesAtivasLimitadas} from "../controllers/formacaoController";
 
-
-const router = Router();
+const router = express.Router();
 
 // GET - listar todas as formações
-router.get("/", async (req, res) => {
-  try {
-    const result = await pool.query("SELECT * FROM formacoes");
-    res.json(result.rows);
-  } catch (err) {
-    res.status(500).json({ error: "Erro ao buscar formações" });
-  }
-});
+router.get('/', listarFormacoes);
+
+// GET - Listar apenas as formações ativas
+router.get('/ativas', listarFormacoesAtivas);
+
+// GET - Listar formações ativas com limite (usar query ?limit=2|3)
+router.get('/ativas/limitadas', listarFormacoesAtivasLimitadas);
 
 // POST - criar uma nova formação
-router.post("/", async (req, res) => {
-  const { nome, descricao, duracao_horas } = req.body;
-  try {
-    const result = await pool.query(
-      "INSERT INTO formacoes (nome, descricao, duracao_horas) VALUES ($1, $2, $3) RETURNING *",
-      [nome, descricao, duracao_horas]
-    );
-    res.status(201).json(result.rows[0]);
-  } catch (err) {
-    res.status(500).json({ error: "Erro ao criar formação" });
-  }
-});
+router.post('/', criarFormacao);
+
+// PUT - alterar os dados da formação selecionada
+router.put('/:id', alterarFormacao);
+
+// PATCH - alterar apenas o status ativo da formação selecionada
+router.patch('/:id/status', alterarStatusFormacao);
 
 export default router;
