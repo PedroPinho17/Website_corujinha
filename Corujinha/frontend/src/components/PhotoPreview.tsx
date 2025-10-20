@@ -1,5 +1,7 @@
+'use client';
+
 import { ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const previewImages = [
   {
@@ -69,7 +71,7 @@ export default function PhotoPreview() {
 
         <div className="text-center">
           <Link
-            to="/galeria"
+            href="/galeria"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-pink-600 to-orange-600 text-white px-8 py-4 rounded-xl hover:shadow-xl transition-all transform hover:scale-105 font-semibold text-lg"
           >
             Ver Galeria Completa

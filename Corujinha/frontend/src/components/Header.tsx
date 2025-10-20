@@ -1,11 +1,14 @@
+'use client';
+
 import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const location = useLocation();
-  const isHomePage = location.pathname === '/';
+  const pathname = usePathname();
+  const isHomePage = pathname === '/';
 
   const scrollToSection = (id: string) => {
     if (!isHomePage) {
@@ -44,7 +47,7 @@ export default function Header() {
             <button onClick={() => scrollToSection('training')} className="text-gray-700 hover:text-pink-600 transition-colors font-medium">
               Formações
             </button>
-            <Link to="/galeria" className="text-gray-700 hover:text-pink-600 transition-colors font-medium">
+            <Link href="/galeria" className="text-gray-700 hover:text-pink-600 transition-colors font-medium">
               Galeria
             </Link>
             <button onClick={() => scrollToSection('partner')} className="text-gray-700 hover:text-pink-600 transition-colors font-medium">
@@ -83,7 +86,7 @@ export default function Header() {
             <button onClick={() => scrollToSection('training')} className="text-gray-700 hover:text-pink-600 transition-colors font-medium text-left">
               Formações
             </button>
-            <Link to="/galeria" className="text-gray-700 hover:text-pink-600 transition-colors font-medium text-left" onClick={() => setIsMenuOpen(false)}>
+            <Link href="/galeria" className="text-gray-700 hover:text-pink-600 transition-colors font-medium text-left" onClick={() => setIsMenuOpen(false)}>
               Galeria
             </Link>
             <button onClick={() => scrollToSection('partner')} className="text-gray-700 hover:text-pink-600 transition-colors font-medium text-left">

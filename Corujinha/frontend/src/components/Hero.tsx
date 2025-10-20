@@ -1,3 +1,5 @@
+'use client';
+
 import { GraduationCap, Heart, Users } from 'lucide-react';
 
 export default function Hero() {

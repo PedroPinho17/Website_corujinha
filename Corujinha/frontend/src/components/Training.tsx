@@ -1,3 +1,5 @@
+'use client';
+
 import { Award, Clock, FileCheck, Users } from 'lucide-react';
 
 export default function Training() {

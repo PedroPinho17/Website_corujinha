@@ -1,3 +1,5 @@
+'use client';
+
 import { Phone, MapPin, Heart } from 'lucide-react';
 
 export default function Footer() {
@@ -16,7 +18,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src="/logo.png" alt="Corujinha Logo" className="h-12 w-12 object-contain" />
+              <img src="/logo.webp" alt="Corujinha Logo" className="h-12 w-12 object-contain" />
               <span className="text-2xl font-bold">Corujinha</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
